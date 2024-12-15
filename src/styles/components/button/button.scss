@@ -1,0 +1,64 @@
+.enable-btn-border{
+    border: 1px solid #5D5DFF;
+}
+
+.solid-purple-btn{
+    background-color: #5D5DFF;
+
+    &:hover{
+        background-color: rgb(12, 12, 14)
+    }
+}
+
+.framer-common-btn{
+    color: #D9E3FA;
+    border-radius: 5px;
+    outline:none;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px 5px;
+    max-width: 320px;
+}
+
+.padding-top-btn{
+    padding: 10px 20px;
+}
+
+.padding-med-btn{
+    padding: 10px 15px;
+}
+
+.padding-small-btn{
+    padding: 10px;
+}
+
+.no-border-btn{
+    border: 0;
+    outline: 0;
+}
+
+.transparent-enabled-btn{
+    background-color: transparent;
+}
+
+.no-solid-bg-btn{
+    background-color: #33363A;
+
+    &:hover{
+        background-color: rgb(21, 23, 25);
+    }
+}
+
+.enable-scale-btn{
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+@media screen {
+    .btn-full-width-flx-col{
+        width: 100%;
+        max-width: 100%;
+    }
+}

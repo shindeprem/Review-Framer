@@ -1,0 +1,25 @@
+.comm-footer{
+    display: flex;
+    column-gap: 40px;
+
+    .logo-container{
+        .second-head{
+            span{
+                font-size: 20px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    .footer-common-lsts{
+        .footer-lst-1{
+            .footer-list{
+                li{
+                    a{                   
+                        color: #9BA9B4;
+                    }
+                }
+            }
+        }
+    }
+}

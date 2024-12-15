@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+
+:root {
+  --background: #151719;
+  --foreground: #171717;
+  --light-bg:#25282C;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  background-color: var(--background);
+  margin: 0;
+  font-family: "Poppins", serif;
+}
+.global-dark-bg{
+  background-color: var(--background);
+}
+.global-light-dark-bg{
+  background-color: var(--light-bg);
+}
+.bg-transparent{
+  background-color: transparent;
+}
+
+/* CSS for h1, h2, h3, h4, h5, h6, p, span font size */
+
+h1 {
+  font-size: 48px; 
+}
+h2 {
+  font-size: 40px; 
+}
+h3 {
+  font-size: 32px; 
+}
+h4 {
+  font-size: 24px; 
+}
+h5 {
+  font-size: 20px; 
+}
+h6 {
+  font-size: 16px; 
+}
+p {
+  font-size: 16px; 
+}
+span {
+  font-size: 14px; 
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px; 
+  }
+  h2 {
+    font-size: 28px; 
+  }
+  h3 {
+    font-size: 24px; 
+  }
+  h4 {
+    font-size: 20px; 
+  }
+  h5 {
+    font-size: 18px; 
+  }
+  h6, p {
+    font-size: 16px; 
+  }
+  span {
+    font-size: 14px; 
+  }
+}
+
+/* CSS for h1, h2, h3, h4, h5, h6, p, span font size */
+
+
+/* CSS for font weights */
+.font-low{
+  font-weight: 400;
+}
+.font-medium{
+  font-weight: 500;
+}
+.font-semibold{
+  font-weight: 600;
+}
+.font-bold{
+  font-weight: 700;
+}
+/* CSS for font weights */
+
+/* link css */
+a, a:link, a:visited{
+  text-decoration: none;
+}
+
+.enable-underline-a{
+  text-decoration: dashed;
+}
+/* link css */
+
+
+/* Font Color Paletes */
+
+.first-small{
+  color: #5D5DFF;
+}
+.second-head{
+  color: #D9E3FA;
+}
+.third-desc, .navigate-ln-desc{
+  color: #9BA9B4;
+}
+span{
+  color: #C5D2DC;
+}
+
+/* Font Color Palletes */
+
+/* Margins */
+
+.content-comm-b-m{
+  margin-bottom: 20px;
+}
+.content-comm-t-m{
+  margin-top: 20px;
+}
+.content-comm-l-m{
+  margin-left: 20px;
+}
+.content-comm-r-m{
+  margin-right: 20px;
+}
+.content-comm-m{
+  margin: 20px;
+}
+
+.content-comm-b-m-l{
+  margin-bottom: 10px;
+}
+.content-comm-t-m-l{
+  margin-top: 10px;
+}
+.content-comm-l-m-l{
+  margin-left: 10px;
+}
+.content-comm-r-m-l{
+  margin-right: 10px;
+}
+.content-comm-m-l{
+  margin: 10px;
+}
+
+/* Margins */
+
+/* Button color palletes */
+.solid-btn-bg{
+  background-color: #5D5DFF;
+}
+.solid-btn-border{
+  border: 2px solid #5D5DFF;
+}
+
+/* Button Color Palletes */
+
+/* Custom Font Size*/
+
+.font-lg{
+  font-size: 18px;
+}
+.font-xl{
+  font-size: 20px;
+}
+.font-ssm{
+  font-size: 16px;
+}
+.font-sm{
+  font-size: 14px;
+}
+
+/* Custom Font Size */
+
+
+/* Auto Margin class */
+
+.max-w-auto{
+  max-width: 1460px;
+}
+
+.m-auto{
+  margin: 0 auto;
+}
+
+.p-auto{
+  padding: 20px;
+}
+
+.framer-p{
+  padding: 60px 40px;
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
+.framer-align-text-center,.framer-align-text-center-2{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.framer-align-text-center{
+  max-width: 931px;
+}
+
+.framer-align-text-center-2{
+  max-width: 680px;
+}
+
+.no-style-ul{
+  list-style-type: none;
+}
+
+.common-icn{
+  cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+  .p-auto{
+    padding: 12px 10px;
+  }
+}
+
+/* Flex custom classes */
+
+/* To align flex center */
+.flx-align-center{
+  display: flex;
+  align-items: center;
+}
+
+
+/* Class for giving display flex with text alignment */
+.flx-row-coln-media{
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.flx-row-coln-media .first-flx-child, .flx-row-coln-media .second-flx-child{
+  width: 50%;
+}

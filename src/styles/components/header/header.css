@@ -1,0 +1,81 @@
+.framer-lev-1 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.137);
+}
+.framer-lev-1 .framer-header {
+  display: flex;
+  align-items: center;
+}
+.framer-lev-1 .framer-header .logo-container .second-head span {
+  font-size: 20px;
+  line-height: 28px;
+}
+.framer-lev-1 .framer-header .header-nav-w-sign {
+  display: flex;
+  width: 100%;
+}
+.framer-lev-1 .framer-header .header-nav-w-sign .header-nav {
+  max-width: 450px;
+  padding: 10px 0;
+}
+.framer-lev-1 .framer-header .header-nav-w-sign .header-nav .header-nav-list {
+  display: flex;
+  align-items: center;
+}
+.framer-lev-1 .framer-header .header-nav-w-sign .header-nav .header-nav-list li a {
+  color: #D9E3FA;
+  padding: 10px 20px;
+}
+.framer-lev-1 .framer-header .md-menu-icn {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .framer-lev-1 {
+    z-index: 100000;
+    position: relative;
+  }
+  .framer-lev-1 .framer-header {
+    position: relative;
+    justify-content: space-between;
+  }
+  .framer-lev-1 .framer-header .header-nav-w-sign {
+    position: absolute;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    background-color: #25282C;
+    z-index: -100;
+  }
+  .framer-lev-1 .framer-header .header-nav-w-sign .header-nav {
+    background-color: #25282C;
+    margin: 0;
+    max-width: 100%;
+  }
+  .framer-lev-1 .framer-header .header-nav-w-sign .header-nav .header-nav-list {
+    flex-direction: column;
+    background-color: #25282C;
+  }
+  .framer-lev-1 .framer-header .header-nav-w-sign .header-nav .header-nav-list li {
+    width: 100%;
+    margin: 5px 0;
+    background-color: #25282C;
+  }
+  .framer-lev-1 .framer-header .header-nav-w-sign .header-nav .header-nav-list li a {
+    padding: 10px;
+    background-color: #25282C;
+  }
+  .framer-lev-1 .framer-header .open-header-nav {
+    top: 100%;
+  }
+  .framer-lev-1 .framer-header .close-header-nav {
+    top: -12rem;
+  }
+  .framer-lev-1 .framer-header .sign-in-up {
+    background-color: #25282C;
+    padding: 0 0 10px;
+  }
+  .framer-lev-1 .framer-header .md-menu-icn {
+    display: flex;
+  }
+}/*# sourceMappingURL=header.css.map */

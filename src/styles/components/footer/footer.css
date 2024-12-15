@@ -1,0 +1,12 @@
+.comm-footer {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.comm-footer .logo-container .second-head span {
+  font-size: 20px;
+  line-height: 28px;
+}
+.comm-footer .footer-common-lsts .footer-lst-1 .footer-list li a {
+  color: #9BA9B4;
+}/*# sourceMappingURL=footer.css.map */

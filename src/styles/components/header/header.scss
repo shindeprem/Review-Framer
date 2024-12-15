@@ -1,0 +1,96 @@
+.framer-lev-1{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.137);
+
+   .framer-header{
+        display: flex;
+        align-items: center;
+
+        .logo-container{
+            .second-head{
+                span{
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+        }
+
+        .header-nav-w-sign{
+            display: flex;
+            width: 100%;
+
+            .header-nav{
+                max-width: 450px;
+                padding: 10px 0;
+    
+                .header-nav-list{
+                    display: flex;
+                    align-items: center;
+                    li{
+                        a{
+                            color: #D9E3FA;
+                            padding: 10px 20px;
+                        }
+                    }
+                }
+            }
+        }
+        .md-menu-icn{
+            display: none;
+        }
+    } 
+}
+
+@media screen and (max-width:768px) {
+    .framer-lev-1{
+        z-index: 100000;
+        position: relative;
+        .framer-header{
+            position: relative;
+            justify-content: space-between;
+            .header-nav-w-sign{
+                position: absolute;
+                right: 0;
+                left: 0;
+                flex-direction: column;
+                transition: .3s ease-in-out;
+                background-color: #25282C;
+                z-index: -100;
+                .header-nav{
+                    background-color: #25282C;
+                    margin: 0;
+                    max-width: 100%;
+                    .header-nav-list{
+                        flex-direction: column;
+                        background-color: #25282C;
+
+                        li{
+                            width: 100%;
+                            margin: 5px 0;
+                            background-color: #25282C;
+
+                            a{
+                                padding: 10px;
+                                background-color: #25282C;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .open-header-nav{
+                top: 100%;
+            }
+            .close-header-nav{
+                top: -12rem;
+            }
+            .sign-in-up{
+                background-color: #25282C;
+                padding: 0 0 10px;
+            }
+
+            .md-menu-icn{
+                display: flex;
+            }
+        }
+    }
+}
